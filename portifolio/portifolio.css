@@ -113,9 +113,11 @@ nav{
 
 .portifolio-descricao{
     font-family: Montserrat;
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 600;
     color: #fff2e7;
+    text-align: left;
+   
 
 }
 
@@ -288,4 +290,32 @@ footer{
 }
 .Portifolio-autor > img {
     width: 1rem;
+}
+.home{
+    display: flex;
+}
+.projetos{
+
+}
+.html{
+    font-size: 10px;
+    
+}
+.botao {
+    background-color: #4CAF50; /* Cor de fundo */
+    border: none; /* Sem borda */
+    color: white; /* Cor do texto */
+    padding: 1px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento de texto */
+    text-decoration: none; /* Sem decoração de texto */
+    display: inline-block; /* Exibir como bloco */
+    font-size: 19px; /* Tamanho da fonte */
+    margin: 1px 2px; /* Margem externa */
+    cursor: pointer; /* Cursor do mouse */
+    border-radius: 10px; /* Borda arredondada */
+    width: 150px;
+}
+/* Pseudo-classe para quando o mouse passa por cima */
+.botao:hover {
+    background-color: #45a049;
 }
